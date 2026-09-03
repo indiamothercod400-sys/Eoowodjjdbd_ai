@@ -1,0 +1,8 @@
+{
+    "name": "telegram/ai-chatbot",
+    "description": "Simple Telegram AI Chat Bot using OpenRouter",
+    "type": "project",
+    "require": {
+        "php": ">=8.1"
+    }
+}
