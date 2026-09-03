@@ -1,0 +1,8 @@
+services:
+  telegram-ai-bot:
+    build: .
+    ports:
+      - "10000:10000"
+    environment:
+      MAIN_BOT_TOKEN: ${MAIN_BOT_TOKEN}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY}
